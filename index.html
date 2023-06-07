@@ -6,5 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <script src="js/jquery.js" charset="utf-8"></script>
     
 </head>
+
+<body>
+    <section class="head">
+        <div class="content flex1">
+            <div class="social_media flex">
+                <span>Follow Us </span>
+                <hr>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div class="logo">
+                <img src="image/logo.png" alt="">
+            </div>
+            <div class="account social_media flex">
+                <i class="fas fa-user"></i>
+                <i class="fas fa-shopping-bag"></i>
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </section>
+
+    <header>
+        <nav>
+            <div id="mySidenav" class="sidenav">
+                <span class="closebtn " onclick="closeNav()">&times;</span>
+                <div class="menu_items">
+                    <a href="#"> Home </a>
+                    <a href='#'> About Us </a>
+                    <a href='#'> Products </a>
+                    <a href='#'> Blog </a>
+                    <a href='#'> Contact </a>
+
+                </div>
+            </div>
+            <div class="social_media">
+                <i class="fas fa-bars hamburger-icon " onclick="openNav()"></i>
+
+            </div>
+        </nav>
+    </header>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    
+</body>
